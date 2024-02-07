@@ -1,0 +1,200 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.photo img {
+    width: 450px;
+    margin-top: -100px;
+}
+i{
+    margin-left: 60px;
+    padding: 20px;
+    
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -230px;
+    margin-left: -30px;
+}
+
+#logPage {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 350px;
+    width: 80%;
+}
+#flogo{
+    margin-left: 67px;
+    margin-bottom: -6px;
+}
+input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+    box-sizing: border-box;
+    font-size: 10px;
+    border: 1px solid #ccc;
+    align: center
+}
+
+#login {
+    width: 80%;
+    padding: 10px;
+    background-color: #18a2f2;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 25px;
+}
+
+#login:hover {
+    background-color: #135e96;
+}
+.line-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.line {
+    flex: 1;
+    border-bottom: 1px solid rgb(194, 191, 191);
+}
+
+#ili {
+    margin: 0 15px;
+    color: gray;
+}
+
+
+#EnterByF {
+    display: flex;
+    margin-left: 88px;
+    margin-top: -30px;
+    color: #22508d;
+    text-decoration: none;
+}
+
+#ForgotPass{
+    margin-left: 110px;
+    color: #22508d;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+#logPage2 {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 350px;
+    width: 112%;
+}
+
+.container2{
+    margin-top: 270px;
+    margin-left: -373px;
+
+}
+
+#txt2{
+    font-size: 13px;
+    text-align: center;
+}
+#reg{
+    text-decoration: none;
+    color: #529fdf;;
+}
+
+.container3{
+    display: flex;
+}
+#download{
+    margin-left: -200px;
+    margin-top: 390px;
+    font-size: 13px;
+}
+
+.container4{
+    display: flex;
+}
+#pm{
+    margin-top: 450px;
+    width: 120px;
+    margin-left: -250px;
+}
+
+.container5{
+    display: flex;
+}
+#ms{
+    margin-top: 450px;
+    width: 100px;
+    margin-left: -120px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+    margin-right: -400px;
+    margin-bottom: 30px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer li {
+    display: inline;
+    margin: 0 5px;
+}
+
+footer a {
+    text-decoration: none;
+    color: gray;
+    font-size: 12px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.container6{
+    position: fixed;
+    margin-top: 680px;
+    margin-left: -180px;
+    overflow-y: visible;
+}
+.changelang{
+    border: none; /* Убираем границу */
+    outline: none;
+    color: gray;
+    text-align: right;
+    font-size: 12px;
+}
+
+.container7{
+    position: fixed;
+    margin-top: 680px;
+    margin-right: -150px;
+    color: gray;
+    font-size: 12px;
+}

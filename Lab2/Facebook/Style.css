@@ -1,0 +1,182 @@
+body {
+    display: flex;
+    /*align-items: center;
+    justify-content: flex-end;
+    height: 100vh;
+    margin: 0;*/
+}
+
+#photo {
+    width: 320px;
+    margin-top: 200px;
+    margin-left: 250px;
+}
+
+h2 {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    margin-top: -20px;
+    margin-left: 280px;    
+}
+
+.container {
+    display: flex;
+    width: 50%;
+    height: 70%;
+}
+
+#logPage {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 350px;
+    width: 80%;
+    margin-top: 150px;
+    margin-left: 80px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+#login {
+    width: 100%;
+    padding: 10px;
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#login:hover {
+    background-color: #135e96;
+}
+
+#ForgotPass {
+    margin-left: 120px;
+    color: #1877f2;
+    font-weight: 500px;
+    text-decoration: none;
+    text-decoration: bold;
+}
+#ForgotPass:hover{
+    text-decoration: underline;
+}
+#newAcc {
+    border-top: 1px solid #ccc;
+    width: 70%;
+    padding: 12px;
+    background-color: rgb(28, 195, 19);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 50px;
+}
+
+#newAcc:hover {
+    background-color: #0a6220;
+}
+
+#text{
+    display: flex;
+    margin-left: -670px;
+    margin-top: 480px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+}
+
+#text1 a {
+    color: inherit; /* Inherit the color from parent */
+    text-decoration: none;
+    text-decoration: bold; /* Remove underline by default */
+}
+
+#text1 a:hover {
+    color: black; /* Change color to black on hover */
+    text-decoration: underline; /* Underline on hover */
+}
+#text2{
+    margin-top: -10px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #f0f0f0; /* Фон может быть другим по вашему выбору */
+    padding: 10px 0;
+    margin-bottom: -150px;
+    
+}
+
+#language-list {
+    text-align: left;
+    margin-left: 265px;
+}
+
+#language-list ul {
+    list-style: none;
+    padding: 0;
+    color: gray;
+}
+
+#language-list li {
+    display: inline;
+    margin: 0 5px;
+}
+
+#language-list li a {
+    text-decoration: none;
+    color: gray;
+}
+
+#language-list li a:hover {
+    text-decoration: underline;
+}
+
+.line {
+    border-top: 1px solid #ccc; /* You can adjust the color and style */
+    margin-left: 270px;
+    width: 72%; /* Adjust the margin as needed */
+}
+
+#footer-links ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    margin-left: 270px;
+    margin-right: 100px;
+}
+
+#footer-links li {
+    display: inline;
+    margin-right: 10px; /* Adjust spacing between links */
+}
+
+#footer-links a {
+    text-decoration: none;
+    color: gray; /* Link color */
+}
+
+#footer-links a:hover {
+    text-decoration: underline;
+}
